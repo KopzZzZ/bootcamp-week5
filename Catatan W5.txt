@@ -1,0 +1,14 @@
+Designing Front End with AI
+
+Tolong buatkan saya sebuah gambar yang di mana terdapat kotak dengan outline hitam dan isi dalamnya berwarna putih. Nah di dalam kotak itu terdapat dadu yang di mana dadu itu posisinya di bawah kiri, posisi dadu itu di atasnya ada titik 4 merah, di kirinya ada titik 1 kuning pastel,  dan di kanan dadu ada titik 6 ungu (untuk titik titik yang ada di dadu ini harus di dalam 1 dadu), serta posisi dadunya itu posisinya miring 30 derajat. terus di atas kanannya terdapat segitiga sama sisi yang berwarna kuning pastel.
+
+THE KEY COMPONENTS OF MICRO INTERACTIONS:
+- triggger
+- rules 
+- feedback
+- loop
+
+rule of Designing
+- affordance
+- consistency
+- 3-clicks rule

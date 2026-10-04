@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pusat informasi penting dan wawasan mendalam mengenai inovasi teknologi, konektivitas digital, dan prinsip keterbukaan bagi para pengunjung.">
+  <title>Odyssey Horizon | Wawasan Terkini & Prinsip Utama</title>
+  
+  <!-- Font: TT Interphases Pro (Dimuat via local @font-face di style.css) -->
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       HEADER & NAVIGATION BAR
+       - Hamburger dropdown menu di pojok kiri atas
+       - Latar putih solid, teks hitam
+       ============================================== -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      
+      <!-- Sisi Kiri: Menu Hamburger & Brand Logo -->
+      <div class="nav-left">
+        <!-- Tombol Hamburger Menu (Dropdown) -->
+        <div class="hamburger-wrapper" id="hamburger-wrapper">
+          <button class="hamburger-btn" id="hamburger-btn" aria-label="Buka Menu Dropdown" aria-expanded="false" aria-controls="hamburger-dropdown">
+            <span class="bar line-1"></span>
+            <span class="bar line-2"></span>
+            <span class="bar line-3"></span>
+          </button>
+
+          <!-- Dropdown Menu -->
+          <div class="hamburger-dropdown" id="hamburger-dropdown" role="region" aria-label="Menu Navigasi Pengunjung">
+            <div class="dropdown-header">
+              <span class="dropdown-badge">Navigasi Utama</span>
+              <h4 class="dropdown-title">Eksplorasi Wawasan</h4>
+            </div>
+
+            <nav class="dropdown-nav">
+              <ul class="dropdown-links">
+                <li>
+                  <a href="#hero" class="dropdown-item" id="dropdown-link-beranda">
+                    <span class="item-icon">🏠</span>
+                    <div class="item-text">
+                      <strong>Beranda Teratas</strong>
+                      <small>Pengantar visi & liputan visual utama</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#visitor-highlights" class="dropdown-item" id="dropdown-link-highlights">
+                    <span class="item-icon">💡</span>
+                    <div class="item-text">
+                      <strong>Wawasan Khusus Pengunjung</strong>
+                      <small>Ringkasan informasi krusial dan statistik</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#principles" class="dropdown-item" id="dropdown-link-principles">
+                    <span class="item-icon">🧭</span>
+                    <div class="item-text">
+                      <strong>Prinsip Kami</strong>
+                      <small>Nilai transparansi, privasi, dan etika</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#insights-grid" class="dropdown-item" id="dropdown-link-insights">
+                    <span class="item-icon">📚</span>
+                    <div class="item-text">
+                      <strong>Arsip Riset & Berita</strong>
+                      <small>Artikel teknologi mendalam dan laporan resmi</small>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="dropdown-footer-box">
+              <div class="box-tag">PANDUAN PENGUNJUNG</div>
+              <p>Mencari laporan spesifik atau butuh klarifikasi data? Tim kurator kami siap membantu Anda.</p>
+              <a href="#footer" class="box-cta-link">Kunjungi Pusat Bantuan &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logo / Nama Brand -->
+        <a href="#hero" class="brand-logo" id="main-brand-logo">
+          <span class="brand-glyph"></span>
+          <span class="brand-text">ODYSSEY</span>
+        </a>
+      </div>
+
+      <!-- Menu Navigasi Desktop Tengah/Kanan -->
+      <nav class="nav-center-menu" aria-label="Navigasi Header">
+        <a href="#hero" class="nav-link active">Beranda</a>
+        <a href="#visitor-highlights" class="nav-link">Wawasan Pengunjung</a>
+        <a href="#principles" class="nav-link">Prinsip Kami</a>
+        <a href="#insights-grid" class="nav-link">Riset Terkini</a>
+      </nav>
+
+      <!-- Aksi di Kanan Header -->
+      <div class="nav-right">
+        <a href="#principles" class="btn-primary-nav" id="cta-nav-button">Jelajahi Sekarang</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==============================================
+         BAGIAN ATAS (HERO SECTION) SEPERTI META.COM
+         - Heading berisikan kalimat di atasnya (eyebrow)
+         - Teks berposisi di tengah (centered)
+         - Elemen showcase foto cinematic pengganti video
+         ============================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-inner-container">
+        
+        <!-- Kalimat di atas Heading (Eyebrow / Sub-heading atas) -->
+        <div class="hero-eyebrow">
+          <span class="eyebrow-pulse"></span>
+          <span class="eyebrow-text">PUSAT INFORMASI & EKSPLORASI DIGITAL MASA DEPAN</span>
+        </div>
+
+        <!-- Heading Utama (Posisi di Tengah) -->
+        <h1 class="hero-headline">
+          Menghubungkan Gagasan, Membuka Wawasan yang Berarti Bagi Masa Depan Anda
+        </h1>
+
+        <!-- Kalimat Penjelasan / Deskripsi (Posisi di Tengah) -->
+        <p class="hero-description">
+          Temukan berbagai terobosan penting, analisis terpercaya, dan panduan esensial yang disusun 
+          khusus untuk memberikan kejelasan bagi para pengunjung mengenai arah transformasi teknologi 
+          modern secara transparan, bertanggung jawab, dan mudah dipahami.
+        </p>
+
+        <!-- Tombol Aksi Cepat Pengunjung -->
+        <div class="hero-actions">
+          <a href="#principles" class="btn-action-primary" id="btn-hero-explore">
+            <span>Pelajari Prinsip Kami</span>
+            <svg class="icon-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#visitor-highlights" class="btn-action-secondary" id="btn-hero-highlights">
+            <span>Lihat Fakta Penting</span>
+          </a>
+        </div>
+
+        <!-- Elemen Foto Showcase Pengganti Video (Format Cinematic Meta Style) -->
+        <div class="showcase-photo-wrapper">
+          <div class="showcase-frame">
+            <!-- Foto Online Resolusi Tinggi -->
+            <img 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80" 
+              alt="Inovasi teknologi digital dan riset kecerdasan buatan" 
+              class="showcase-img"
+              id="showcase-hero-img"
+              loading="eager"
+            >
+
+            <!-- Overlay Badge & Header Info Ala Player Video Meta -->
+            <div class="showcase-overlay-top">
+              <div class="showcase-status-badge">
+                <span class="status-dot"></span>
+                <span>SOROTAN KHUSUS PENGUNJUNG</span>
+              </div>
+              <div class="showcase-meta-tag">
+                Edisi Riset Terbuka 2026
+              </div>
+            </div>
+
+            <!-- Floating Caption Bar di Bagian Bawah Gambar -->
+            <div class="showcase-overlay-bottom">
+              <div class="caption-content">
+                <span class="caption-label">Eksplorasi Antarmuka & Interaksi Manusia</span>
+                <p class="caption-text">
+                  Dokumentasi visual bagaimana para peneliti merancang ekosistem komputasi adaptif yang mengutamakan kenyamanan, kemudahan interaksi, dan transparansi data bagi publik.
+                </p>
+              </div>
+              <div class="caption-pill">
+                <span class="pill-icon">✦</span>
+                <span>Informasi Terverifikasi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Keterangan Kecil di Bawah Frame Foto -->
+          <div class="showcase-subtext">
+            <span>✦ Menyajikan gambaran nyata kolaborasi antara kecerdasan buatan dan kesejahteraan pengguna digital di seluruh dunia.</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         BAGIAN HIGHLIGHTS / INFORMASI PENTING PENGUNJUNG
+         - Ringkasan angka penting dan transparansi data
+         ============================================== -->
+    <section class="highlights-section" id="visitor-highlights">
+      <div class="site-container">
+        
+        <div class="highlights-grid">
+          
+          <article class="highlight-card">
+            <div class="highlight-icon-circle">01</div>
+            <div class="highlight-info">
+              <h3 class="highlight-num">100% Bebas Pelacak</h3>
+              <p class="highlight-desc">Privasi mutlak saat Anda menelusuri wawasan di platform kami tanpa profiling komersial.</p>
+            </div>
+          </article>
+
+          <article class="highlight-card">
+            <div class="highlight-icon-circle">02</div>
+            <div class="highlight-info">
+              <h3 class="highlight-num">Teruji Secara Faktual</h3>
+              <p class="highlight-desc">Setiap informasi dan rilis data didasarkan pada metode riset independen yang terverifikasi.</p>
+            </div>
+          </article>
+
+          <article class="highlight-card">
+            <div class="highlight-icon-circle">03</div>
+            <div class="highlight-info">
+              <h3 class="highlight-num">Akses Terbuka 24/7</h3>
+              <p class="highlight-desc">Dokumentasi dan laporan komprehensif dapat diunduh dan dipelajari kapan pun oleh masyarakat luas.</p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         BAGIAN "OUR PRINCIPLES"
+         - Beberapa card di satu sisi
+         - Foto di sisi sebelahnya
+         - Interaktif, modern, bernuansa Meta / Apple
+         ============================================== -->
+    <section class="principles-section" id="principles">
+      <div class="site-container">
+        
+        <!-- Header Bagian Our Principles -->
+        <div class="section-header-center">
+          <div class="section-eyebrow">NILAI & PANDUAN DASAR</div>
+          <h2 class="section-title">Prinsip Kami</h2>
+          <p class="section-subtitle">
+            Fondasi yang memandu setiap keputusan teknologi, perumusan standar informasi, dan cara kami melayani setiap pengunjung dengan integritas tertinggi.
+          </p>
+        </div>
+
+        <!-- Grid Dua Kolom: Kumpulan Card di Kiri & Foto di Kanan -->
+        <div class="principles-layout">
+          
+          <!-- Kolom Kiri: Kumpulan Cards Prinsip -->
+          <div class="principles-cards-list" role="tablist" aria-label="Daftar Prinsip Utama">
+            
+            <!-- Card 1 (Active Default) -->
+            <div 
+              class="principle-card active" 
+              tabindex="0" 
+              role="tab" 
+              aria-selected="true" 
+              aria-controls="principle-content-1"
+              id="principle-card-1"
+              data-img="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+              data-caption="Kolaborasi Terpadu untuk Kesejahteraan Digital"
+              data-desc="Tim lintas disiplin bekerja bersama guna memastikan inovasi dapat diakses secara adil oleh seluruh lapisan masyarakat."
+            >
+              <div class="card-indicator">
+                <span class="card-number">01</span>
+                <span class="card-active-line"></span>
+              </div>
+              <div class="card-body">
+                <div class="card-badge">Transparansi Informasi</div>
+                <h3 class="card-title">Keterbukaan Tanpa Kompromi</h3>
+                <p class="card-text">
+                  Kami menyajikan fakta apa adanya. Setiap pengunjung berhak memperoleh informasi yang akurat, terstruktur, dan bebas dari distorsi promosi atau manipulasi algoritma.
+                </p>
+                <div class="card-bullets">
+                  <span class="bullet-item">✓ Audit riset berkala terbuka untuk publik</span>
+                  <span class="bullet-item">✓ Penjelasan teknis dengan bahasa yang lugas</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div 
+              class="principle-card" 
+              tabindex="0" 
+              role="tab" 
+              aria-selected="false" 
+              aria-controls="principle-content-2"
+              id="principle-card-2"
+              data-img="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+              data-caption="Kedaulatan & Perlindungan Data Pengunjung"
+              data-desc="Keamanan tingkat industri yang menjamin bahwa privasi dan kebebasan digital Anda tetap terjaga sepenuhnya."
+            >
+              <div class="card-indicator">
+                <span class="card-number">02</span>
+                <span class="card-active-line"></span>
+              </div>
+              <div class="card-body">
+                <div class="card-badge">Privasi & Keamanan</div>
+                <h3 class="card-title">Privasi Sebagai Standar Utama</h3>
+                <p class="card-text">
+                  Keamanan data bukan sekadar fitur tambahan, melainkan pondasi awal. Kami merancang arsitektur digital dengan prinsip perlindungan data menyeluruh tanpa kompromi.
+                </p>
+                <div class="card-bullets">
+                  <span class="bullet-item">✓ Enkripsi data tingkat enterprise</span>
+                  <span class="bullet-item">✓ Tidak ada penjualan atau lelang riwayat penjelajahan</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div 
+              class="principle-card" 
+              tabindex="0" 
+              role="tab" 
+              aria-selected="false" 
+              aria-controls="principle-content-3"
+              id="principle-card-3"
+              data-img="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
+              data-caption="Desain Human-Centric & Aksesibilitas Universal"
+              data-desc="Setiap antarmuka dan konten disederhanakan agar siapa pun dapat menemukan wawasan penting dalam beberapa detik."
+            >
+              <div class="card-indicator">
+                <span class="card-number">03</span>
+                <span class="card-active-line"></span>
+              </div>
+              <div class="card-body">
+                <div class="card-badge">Fokus Manusia</div>
+                <h3 class="card-title">Inovasi yang Mengutamakan Manusia</h3>
+                <p class="card-text">
+                  Teknologi paling maju sekalipun tidak akan bernilai jika menyulitkan manusia. Fokus utama kami adalah menghadirkan solusi intuitif yang langsung menjawab kebutuhan nyata pengguna.
+                </p>
+                <div class="card-bullets">
+                  <span class="bullet-item">✓ Antarmuka intuitif ramah segala usia</span>
+                  <span class="bullet-item">✓ Navigasi ringkas mengikuti kaidah 3-klik</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div 
+              class="principle-card" 
+              tabindex="0" 
+              role="tab" 
+              aria-selected="false" 
+              aria-controls="principle-content-4"
+              id="principle-card-4"
+              data-img="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+              data-caption="Keberlanjutan & Dampak Sosial Jangka Panjang"
+              data-desc="Komitmen penuh pada infrastruktur komputasi bersih, etika kecerdasan buatan, serta edukasi masyarakat digital."
+            >
+              <div class="card-indicator">
+                <span class="card-number">04</span>
+                <span class="card-active-line"></span>
+              </div>
+              <div class="card-body">
+                <div class="card-badge">Keberlanjutan</div>
+                <h3 class="card-title">Dampak Positif Jangka Panjang</h3>
+                <p class="card-text">
+                  Setiap langkah inovasi kami diproyeksikan untuk menciptakan ekosistem berkelanjutan, mendukung netralitas karbon komputasi, serta memperkuat literasi teknologi generasi mendatang.
+                </p>
+                <div class="card-bullets">
+                  <span class="bullet-item">✓ Efisiensi energi pada infrastruktur server</span>
+                  <span class="bullet-item">✓ Program beasiswa dan literasi teknologi publik</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Kolom Kanan: Foto Pendamping yang Mengiringi Cards -->
+          <div class="principles-visual-column">
+            <div class="principles-photo-card" id="principles-photo-card">
+              
+              <!-- Container Foto -->
+              <div class="photo-viewport">
+                <img 
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Tim kolaborator mendiskusikan prinsip inovasi terbuka" 
+                  class="principles-active-img"
+                  id="principles-dynamic-img"
+                  loading="lazy"
+                >
+                <div class="photo-glass-indicator">
+                  <span class="live-dot"></span>
+                  <span id="principles-badge-text">PRINSIP TERPILIH : 01</span>
+                </div>
+              </div>
+
+              <!-- Informasi Detail Di Bawah Foto -->
+              <div class="photo-info-box">
+                <h4 class="photo-info-title" id="principles-photo-title">
+                  Kolaborasi Terpadu untuk Kesejahteraan Digital
+                </h4>
+                <p class="photo-info-desc" id="principles-photo-desc">
+                  Tim lintas disiplin bekerja bersama guna memastikan inovasi dapat diakses secara adil oleh seluruh lapisan masyarakat.
+                </p>
+                
+                <div class="photo-footer-meta">
+                  <span class="meta-tag-clean">
+                    <span class="check-icon">✓</span> Standar Internasional Terpenuhi
+                  </span>
+                  <span class="meta-date">Diperbarui: Oktober 2026</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         INFORMASI MENARIK TAMBAHAN UNTUK PENGUNJUNG
+         - Card wawasan dan riset esensial
+         ============================================== -->
+    <section class="insights-section" id="insights-grid">
+      <div class="site-container">
+        
+        <div class="insights-header">
+          <div>
+            <div class="section-eyebrow">TOPIK HANGAT & ARTIKEL PILIHAN</div>
+            <h2 class="section-title">Wawasan Penting untuk Anda Telusuri</h2>
+          </div>
+          <p class="insights-header-desc">
+            Rangkuman artikel dan temuan kunci yang dirangkum tim analis untuk membantu Anda memahami tren terkini.
+          </p>
+        </div>
+
+        <div class="insights-grid">
+          
+          <div class="insight-box">
+            <span class="box-category">Kecerdasan Buatan</span>
+            <h3 class="box-heading">Menakar Etika & Otomasi: Bagaimana Algoritma Melindungi Hak Pengguna</h3>
+            <p class="box-summary">
+              Analisis menyeluruh tentang bagaimana regulasi baru menjamin algoritma tetap transparan dan tidak mengambil keputusan yang merugikan publik.
+            </p>
+            <a href="#principles" class="box-read-more">Baca Wawasan Lengkap &rarr;</a>
+          </div>
+
+          <div class="insight-box">
+            <span class="box-category">Keamanan Siber</span>
+            <h3 class="box-heading">Evolusi Perlindungan Identitas di Era Komputasi Terdistribusi</h3>
+            <p class="box-summary">
+              Panduan praktis bagi pengunjung untuk memahami enkripsi kunci publik, zero-trust architecture, dan cara melindungi privasi mandiri.
+            </p>
+            <a href="#principles" class="box-read-more">Baca Wawasan Lengkap &rarr;</a>
+          </div>
+
+          <div class="insight-box">
+            <span class="box-category">Pengalaman Pengguna</span>
+            <h3 class="box-heading">Mengapa Kesederhanaan Desain Menjadi Tolok Ukur Kualitas Masa Depan</h3>
+            <p class="box-summary">
+              Penerapan prinsip micro-interactions, affordance, dan konsistensi guna merancang sistem yang mudah digunakan oleh jutaan orang.
+            </p>
+            <a href="#principles" class="box-read-more">Baca Wawasan Lengkap &rarr;</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================
+       FOOTER (Latar Putih Solid, Font Hitam)
+       ============================================== -->
+  <footer class="site-footer" id="footer">
+    <div class="site-container">
+      
+      <div class="footer-top-row">
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <span class="brand-glyph"></span>
+            <span class="brand-text">ODYSSEY</span>
+          </div>
+          <p class="footer-tagline">
+            Menghadirkan kejelasan informasi dan keterbukaan teknologi demi memberdayakan setiap pengunjung di era digital.
+          </p>
+          <div class="footer-status-pill">
+            <span class="status-indicator-green"></span>
+            <span>Semua Layanan Informasi Beroperasi Normal</span>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4 class="footer-col-title">Navigasi Utama</h4>
+            <ul>
+              <li><a href="#hero">Beranda Teratas</a></li>
+              <li><a href="#principles">Prinsip Kami</a></li>
+              <li><a href="#visitor-highlights">Wawasan Pengunjung</a></li>
+              <li><a href="#insights-grid">Riset & Dokumentasi</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Kategori Informasi</h4>
+            <ul>
+              <li><a href="#insights-grid">Etika Kecerdasan Buatan</a></li>
+              <li><a href="#principles">Standar Privasi Digital</a></li>
+              <li><a href="#visitor-highlights">Laporan Audit Publik</a></li>
+              <li><a href="#hero">Antarmuka Generasi Baru</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Pengunjung & Bantuan</h4>
+            <ul>
+              <li><a href="#hero">Panduan Eksplorasi Web</a></li>
+              <li><a href="#principles">Kebijakan Privasi Solid</a></li>
+              <li><a href="#footer">Pernyataan Aksesibilitas</a></li>
+              <li><a href="#footer">Hubungi Redaksi Wawasan</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div class="copyright-text">
+          &copy; 2026 Odyssey Platform. Seluruh hak cipta dilindungi. Didesain dengan latar putih solid & tipografi TT Interphases Pro.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#principles">Privasi</a>
+          <span>•</span>
+          <a href="#principles">Ketentuan Penggunaan</a>
+          <span>•</span>
+          <a href="#principles">Transparansi Algoritma</a>
+          <span>•</span>
+          <a href="#hero">Kembali ke Atas ↑</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==============================================
+       VANILLA JAVASCRIPT LOGIC
+       - Toggle Dropdown Menu Hamburger
+       - Interaktivitas Card Our Principles (Ganti Foto & Teks)
+       - Keyboard Accessibility
+       ============================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Logika Menu Hamburger Dropdown
+      const hamburgerWrapper = document.getElementById('hamburger-wrapper');
+      const hamburgerBtn = document.getElementById('hamburger-btn');
+      const hamburgerDropdown = document.getElementById('hamburger-dropdown');
+      const dropdownLinks = document.querySelectorAll('.dropdown-item');
+
+      function toggleHamburgerMenu(e) {
+        if (e) e.stopPropagation();
+        const isOpen = hamburgerWrapper.classList.toggle('active');
+        hamburgerBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      }
+
+      function closeHamburgerMenu() {
+        hamburgerWrapper.classList.remove('active');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      hamburgerBtn.addEventListener('click', toggleHamburgerMenu);
+
+      // Tutup menu saat klik tautan di dalamnya
+      dropdownLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          closeHamburgerMenu();
+        });
+      });
+
+      // Tutup dropdown jika klik di luar area hamburger
+      document.addEventListener('click', (e) => {
+        if (!hamburgerWrapper.contains(e.target)) {
+          closeHamburgerMenu();
+        }
+      });
+
+      // Tutup dengan tombol Escape di keyboard
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && hamburgerWrapper.classList.contains('active')) {
+          closeHamburgerMenu();
+          hamburgerBtn.focus();
+        }
+      });
+
+      // 2. Logika Navigasi Header: Underline Dinamis & Scroll Spy
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('section[id]');
+
+      function setActiveNavLink(targetHash) {
+        navLinks.forEach(link => {
+          if (link.getAttribute('href') === targetHash) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
+
+      // Berpindah langsung saat link di klik di header
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+
+      // Update underline jika pengguna klik dari dropdown atau tombol hero
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function() {
+          const hash = this.getAttribute('href');
+          if (hash && hash !== '#') {
+            setActiveNavLink(hash);
+          }
+        });
+      });
+
+      // Scroll Spy: Update underline otomatis saat pengguna menggulir halaman
+      let isManualClick = false;
+      navLinks.forEach(l => {
+        l.addEventListener('click', () => {
+          isManualClick = true;
+          setTimeout(() => { isManualClick = false; }, 800);
+        });
+      });
+
+      window.addEventListener('scroll', () => {
+        if (isManualClick) return; // Cegah konflik saat animasi scroll klik berlangsung
+
+        let currentSectionId = '';
+        const scrollPosition = window.scrollY + 140; // Offset posisi pandang
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            currentSectionId = section.getAttribute('id');
+          }
+        });
+
+        // Jika berada di paling atas halaman
+        if (window.scrollY < 200) {
+          currentSectionId = 'hero';
+        }
+
+        if (currentSectionId) {
+          setActiveNavLink(`#${currentSectionId}`);
+        }
+      }, { passive: true });
+
+      // 3. Logika Interaktivitas Our Principles Cards & Foto
+      const principleCards = document.querySelectorAll('.principle-card');
+      const dynamicImg = document.getElementById('principles-dynamic-img');
+      const photoTitle = document.getElementById('principles-photo-title');
+      const photoDesc = document.getElementById('principles-photo-desc');
+      const badgeText = document.getElementById('principles-badge-text');
+
+      principleCards.forEach((card, index) => {
+        const activateCard = () => {
+          // Hapus status active dari card lain
+          principleCards.forEach(c => {
+            c.classList.remove('active');
+            c.setAttribute('aria-selected', 'false');
+          });
+
+          // Aktifkan card ini
+          card.classList.add('active');
+          card.setAttribute('aria-selected', 'true');
+
+          // Ambil data atribut foto & teks
+          const newImgSrc = card.getAttribute('data-img');
+          const newCaption = card.getAttribute('data-caption');
+          const newDesc = card.getAttribute('data-desc');
+          const cardNum = card.querySelector('.card-number').textContent.trim();
+
+          // Efek transisi halus pada foto
+          dynamicImg.style.opacity = '0.3';
+          dynamicImg.style.transform = 'scale(0.98)';
+          
+          setTimeout(() => {
+            dynamicImg.src = newImgSrc;
+            dynamicImg.alt = newCaption;
+            photoTitle.textContent = newCaption;
+            photoDesc.textContent = newDesc;
+            badgeText.textContent = `PRINSIP TERPILIH : ${cardNum}`;
+            
+            dynamicImg.style.opacity = '1';
+            dynamicImg.style.transform = 'scale(1)';
+          }, 180);
+        };
+
+        // Respon terhadap klik
+        card.addEventListener('click', activateCard);
+
+        // Respon terhadap tombol keyboard (Enter / Spasi) untuk aksesibilitas
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            activateCard();
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
